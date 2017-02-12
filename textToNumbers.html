@@ -1,0 +1,38 @@
+<html>
+<body>
+<script type="text/javascript">
+// Program name: textToNumbers.html
+// Purpose: Convert text input to numbers and finds the sum, product, and average
+// Author: <Brianna Danois>
+// Date: <Feb 10 17>
+var num1, num2; //numbers entered by user
+var sum; //sum of two numbers
+var product; //product of two numbers
+var ave; //average of two numbers
+
+document.write("Welcome! <br/>")
+document.write("This program converts text to numbers,");
+document.write("finds the sum, product and average and then displays the results<br/>");
+
+// Prompting the user for two numbers then convert the strings to integers
+num1 = prompt("Please enter the first number:");
+num1 = parseInt(num1);
+num2 = prompt("Please enter the second number:");
+num2 = parseInt(num2);
+
+// Compute the sum and display the sum to the screen
+sum = num1 + num2;
+document.write("<br />The SUM of the numbers is: " + sum + "<br />");
+//Complete this section - Compute the product and display the product to the screen
+product = num1*num2;
+document.write("<br />The PRODUCT of the numbers is: " + product + "<br />")
+
+// Complete this section - Compute the average and display the average to the screen
+ave = (num1+num2)/2;
+document.write("<br />The AVERAGE of the numbers is: " + ave + "<br />")
+
+// Thank the user and end the program
+document.write("<br /> <b>Thank you! </b>");
+</script>
+</body>
+</html>
